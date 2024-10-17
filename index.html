@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/style.css">
+    <!-- <link rel="shortcut icon" href="ico" type="image/x-icon"> -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.7.1.min.js" ></script>
+    <script src="js/actions.js"></script>
+
+    </script>
+    <title>Dmitry Wall</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+          <span>Можаров</span>
+        </div>
+        <div class="links">
+          <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#">Главная</a></div>
+          <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">Обо мне</a></div>
+          <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skills">Мои навыки</a></div>
+          <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#achievements">Достижения</a></div>
+          <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#comment">Комментарии</a></div>
+        </div>
+        <i class="fa-solid fa-bars hamburg"></i>
+      </div>
+      <div class="dropdown">
+        <div class="links">
+          <a href="#">Главная</a>
+          <a href="#about">Обо мне</a>
+          <a href="#skills">Мои навыки</a>
+          <a href="#achievements">Достижения</a>
+          <a href="#comment">Комментарии</a>
+          <i class="fa-solid fa-xmark cancel"></i>
+        </div>
+      </div>
+    </nav>
+    <!-- Home section -->
+    <section>
+      <div class="main-container">
+        <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+          <img src="images/ava.jpg" alt="Моя фоточка">
+        </div>
+        <div class="content">
+          <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Привет, я <span>Дмитрий Стена</span></h1>
+          <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">Я <span class="typewriter-text">python oneline developer</span></div>
+          <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">Почему стена? Да просто я однажды написал однострок, решающий олимпиадную алгоритмическую задачку. Но все было бы ничего, если бы эта строчка не была настолько длинной и непонятной. И при форматировании этой строчки появилась просто стена нечитабельного кода. Так мое погоняло и появилось.</p>
+          <div class="social-links">
+            <a href="https://github.com/dmitry416" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
+            <a href="https://t.me/mozharovdm" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-telegram"></i></a>
+            <a href="https://vk.com/dmirty_mjrff" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-vk"></i></a>
+            <a href="https://www.instagram.com/mozharovdm" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <!-- <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+            <button>Hire me</button>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <!-- About section -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>Обо мне</span></div>
+        <div class="about-details">
+          <div class="left" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
+            <img src="images/ava.jpg" alt="Моя фоточка">
+          </div>
+          <div class="right">
+            <div class="topic" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">Что я могу рассказать о себе?</div>
+            <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300">Студент 2 курса ДВФУ. Учусь на факультете "Прикладная математика и информатика", направление "Системное программирование". Окончил Яндекс Лицей. Также, окончил музыкальную школу по двум направлениям: фортепиано и гитара.</p>
+            <!-- <div class="button" data-aos="zoom-in-right" data-aos-duration="1500" data-aos-delay="400"><button>Download CV</button></div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skill section -->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>Мои навыки</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">Какими навыками я обладаю?</div>
+            <p data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">Могу написать однострочную стену кода на python. А так я ничего толком не умею, так как если я напишу, что я что-то умею, мне Павел Ростиславович скажет и докажет, что я ничего не умею. Но я стремлюсь к тому, чтобы что-то уметь. В идеале, научиться программировать. Ну а так я могу просто примерно прикинуть, в каких сферах я разбираюсь лучше, а в каких хуже.</p>
+            <div class="experience">
+              <div class="num" data-aos="fade-right" data-aos-duration"1800" data-aos-delay="1000">0</div>
+              <div class="exp" data-aos="fade-right" data-aos-duration"1800" data-aos-delay="500">
+                Лет коммерческого <br />
+                Опыта
+              </div>
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">С#/Unity</div>
+              <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">74.92%</div>
+            </div>
+            <div class="box">
+              <div class="topic" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="150">Python</div>
+              <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">53.58%</div>
+            </div>
+            <div class="box">
+              <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="450">C++</div>
+              <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">47.02%</div>
+            </div>
+            <div class="box">
+              <div class="topic" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="450">Haskell</div>
+              <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">103.73%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services section -->
+    <section class="services" id="achievements">
+      <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>Мои достижения</span></div>
+        <div class="boxes">
+          <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+            <div class="icon">
+              <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div class="topic">Сисько-кликер</div>
+            <p>Выпустил "сисько-кликер" на Яндекс Игры, из-за чего пошел всплеск подобных игр и эта площадка была переполнена подобными играми. Поэтому Яндекс Играм пришлось менять в срочном порядке правила, чтобы остановить этот потоп "сисько-игр". Также, моя игра была показана в новых правилах Яндекс Игр как пример того, как игра находится на грани допустимой по их правилам.</p>
+          </div>
+          <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+            <div class="icon">
+              <i class="fa-solid fa-trademark"></i>
+            </div>
+            <div class="topic">Влад А4</div>
+            <p>Выпустил игру в Play Market про Влада А4 (которую на данный момент убрали с площадки из-за старой версии Android), после чего со мной связался представитель "А4 Production" и потребовал снятия игры с публикации или сотрудничестве, так как "Влад Бумага" и "Влад А4" это их товарный знак. Но я просто убрал данные словосочетания, оставив лишь одно слово из двух и игра продолжала существовать.</p>
+          </div>
+          <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+            <div class="icon">
+              <i class="fa-solid fa-code-fork"></i>
+            </div>
+            <div class="topic">Форк</div>
+            <p>Недавно кто-то форкнул мой репозиторий с исходным кодом игры. Мелочь, а приятно.</p>
+          </div>
+          <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">
+            <div class="icon">
+              <i class="fa-solid fa-gamepad"></i>
+            </div>
+            <div class="topic">Геймдев</div>
+            <p>Работал в небольшой команде геймдев, которая делала игру для обучения английскому языку еврейских детей. Мне нужно было делать уровни, анимации, переходы между состояний игры. Я сделал почти полностью один уровень, после чего я понял, что не хочу заниматься этой нудной работой, к тому же были проблемы со спрайтами и по-хорошему мне нужно было бы их всех вручную редактировать. На эту работу я бы потратил примерно 2-3 месяца и получил бы 80к рублей. Я понял, что меня это не устраивает и ушел. И правильно сделал, ведь после я как раз и сделал за вечер "сисько-кликер" и заработал куда больше, чем мне предлагали.</p>
+          </div>
+          <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1000">
+            <div class="icon">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <div class="topic">Haskellgram</div>
+            <p>Как же было тяжело писать этот чат на Haskell. Пришлось вникать не только в то, как устроено сетевое взаимодействие, так ещё и в то, как написать GUI на хаскеле, так ещё и подружить эти две штуки между собой. Мы с товарищем вообще думали, что у нас не получится показать полноценное приложение и у нас это будет наполовину GUI, наполовину консольное приложение. Но вечером перед сдачей у нас все же получилось. Haskell забрал столько нервных клеток...</p>
+          </div>
+          <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1200">
+            <div class="icon">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <div class="topic">Однострок</div>
+            <p>Самое главное мое достижение, из-за которого остальные достижения кажутся чем-то обычным и незначительным - это мой однострок на python, решающий олимпиадную алгоритмическую задачу. За эту строчку кода я заработал +1 балл по любому предмету, который будет вести Павел Ростиславович.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Leave comment -->
+    <section class="contact" id="comment">
+      <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>Оставить комментарий</span></div>
+      <div class="text">
+        <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Хочешь оставить комметрарий?</div>
+        <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">Прежде всего тебе нужно зарегистрироваться на сайте через гос услуги.</p>
+        <div class="button" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400"><button onclick="window.location='https://esia.gosuslugi.ru/login/'">Регистрация</button></div>
+      </div>
+      </div>
+    </section>
+    <!-- Commets section -->
+    <section class="services">
+      <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>Комментарии</span></div>
+        <div class="boxes">
+          <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+            <div class="icon">
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="topic">Владимир Путин</div>
+            <p>Прекрасный человек, потому и такой прекрасный сайт. Выглядит стильно, а главное все понятно и по делу. Россия ждет именно таких специалистов, ведь именно такие люди не то что двигают, толкают Россию в светлое будущее.</p>
+          </div>
+          <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+            <div class="icon">
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="topic">Павел Месенев</div>
+            <p>Это лучшая лабораторная работа, которую я когда-либо видел. Однозначно 200 баллов из 100.</p>
+          </div>
+          <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+            <div class="icon">
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="topic">User0416</div>
+            <p>Я сначала не поверил, что эти комментарии реальные, но оказывается тут действительно можно оставить комментарий после регистрации через гос услуги. И я увидел, что это настоящий аккаунт Владимира Владимировича и Павла Ростиславовича, гос услуги подтвердили.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer section -->
+    <footer>
+      <div class="text">
+        <span>Created by
+          <a href="https://github.com/dmitry416">dmitry416</a>
+          &#169; 2024 All Rights Reserved</span>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
