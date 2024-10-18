@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600&display=swap%27%29%3B');
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
   text-decoration: none;
   scroll-behavior: smooth;
 }
@@ -255,7 +254,7 @@ section .main-container{
 section .content{
   width: 80%;
   margin: 0px auto;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 .about .about-details{
@@ -403,13 +402,13 @@ section .button button:hover{
   color: #b73434;
 }
 
-.services .boxes{
+.achievements .boxes{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.services .boxes .box{
+.achievements .boxes .box{
   margin: 20px 0;
   width: calc(100% / 3 - 20px);
   text-align: center;
@@ -421,12 +420,12 @@ section .button button:hover{
   transition: all 0.4s ease;
 }
 
-.services .boxes .box:hover{
+.achievements .boxes .box:hover{
   background: #b73434;
   color: white;
 }
 
-.services .boxes .box .icon{
+.achievements .boxes .box .icon{
   height: 50px;
   width: 50px;
   background: #b73434;
@@ -444,14 +443,14 @@ section .button button:hover{
   color: #b73434;
 }
 
-.services .boxes .box:hover .topic,
-.services .boxes .box:hover p{
+.achievements .boxes .box:hover .topic,
+.achievements .boxes .box:hover p{
   color: white;
   transition: all 0.4s ease;
 }
 
-.services .boxes .box:hover .topic,
-.services .boxes .box:hover p{
+.achievements .boxes .box:hover .topic,
+.achievements .boxes .box:hover p{
   color: white;
 }
 
@@ -478,7 +477,7 @@ footer{
   background: #b73434;
   padding: 15px 0;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 footer .text span{
   font-size: 17px;
@@ -599,7 +598,7 @@ footer .text span a:hover{
     align-items: center;
     width: 100%;
   }
-  .services .boxes .box{
+  .achievements .boxes .box{
     margin: 20px 0;
     width: 100%;
   }
