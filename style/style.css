@@ -208,8 +208,8 @@ section .button button:hover{
   margin: 10px 0;
 }
 .content button{
-  width: 50%;
-  height: 6vh;
+  width: 200px;
+  height: 50px;
   margin: 30;
   background-color: #b73434;
   color: white;
