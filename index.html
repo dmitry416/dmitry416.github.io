@@ -24,25 +24,6 @@
     <!-- Yandex.RTB -->
     <script>window.yaContextCb=window.yaContextCb||[]</script>
     <script src="https://yandex.ru/ads/system/context.js" async></script>
-    <!-- Yandex.RTB R-A-12460838 -->
-    <script>
-    window.yaContextCb.push(() => {
-      Ya.Context.AdvManager.render({
-        "blockId": "R-A-12460838-1",
-        "type": "fullscreen",
-        "platform": "desktop"
-      })
-    })
-  </script>
-  <script>
-  window.yaContextCb.push(() => {
-  Ya.Context.AdvManager.render({
-      "blockId": "R-A-12460838-2",
-      "type": "fullscreen",
-      "platform": "touch"
-  })
-  })
-  </script>
     <link rel="stylesheet" href="style/style.css">
     <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -56,6 +37,26 @@
     <title>Dmitry Wall - Можаров Дмитрий Александрович (Стена)</title>
   </head>
   <body>
+    <!-- Yandex.RTB R-A-12460838 -->
+  <script>
+    window.yaContextCb.push(() => {
+    Ya.Context.AdvManager.render({
+        "blockId": "R-A-12460838-2",
+        "type": "fullscreen",
+        "platform": "touch"
+    })
+    })
+  </script>
+    <script>
+    window.yaContextCb.push(() => {
+      console.log("desktop");
+      Ya.Context.AdvManager.render({
+        "blockId": "R-A-12460838-1",
+        "type": "fullscreen",
+        "platform": "desktop"
+      })
+    })
+  </script>
     <nav>
       <div class="nav-container">
         <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
