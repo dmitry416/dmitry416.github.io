@@ -49,7 +49,6 @@
   </script>
     <script>
     window.yaContextCb.push(() => {
-      console.log("desktop");
       Ya.Context.AdvManager.render({
         "blockId": "R-A-12460838-1",
         "type": "fullscreen",
@@ -243,6 +242,17 @@
         </div>
       </div>
     </section>
+    <!-- Yandex.RTB R-A-12460838-3 -->
+  <div id="yandex_rtb_R-A-12460838-3"></div>
+  <script>
+    window.yaContextCb.push(() => {
+        Ya.Context.AdvManager.render({
+            "blockId": "R-A-12460838-3",
+            "renderTo": "yandex_rtb_R-A-12460838-3",
+            "type": "feed"
+        })
+    })
+  </script>
     <!-- Footer section -->
     <footer>
       <div class="text">
@@ -255,6 +265,5 @@
     <script>
       AOS.init();
     </script>
-    <script src="script.js"></script>
   </body>
 </html>
