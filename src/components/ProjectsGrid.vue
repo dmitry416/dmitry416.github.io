@@ -24,7 +24,7 @@
                 target="_blank"
                 class="link-btn demo"
             >
-              <span class="icon">🔗</span> Демо
+              <span class="icon">🔗</span> Перейти
             </a>
           </div>
         </div>
