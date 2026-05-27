@@ -26,6 +26,9 @@ export default {
     ContentSection,
     Footer
   },
+  mounted() {
+    document.title = 'Можаров Дмитрий';
+  },
   data() {
     return {
       activeCategory: 'web'

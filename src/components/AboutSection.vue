@@ -12,8 +12,7 @@
             Меня зовут Дмитрий, и я занимаюсь разработкой сайтов и игр.
           </p>
           <p>
-            Занимаюсь разработкой с 2018 года. Именно тогда я начал выпускать игры в Play Market.
-            После стал изучать и заниматься разработкой веб-приложений. (Если убрать то время, когда я не занимался программированием, то будет 4 года работы разработчиком).
+            Имею опыт коммерческий опыт Web-разработки на Django + Vue.js (1.5 года). Также занимаюсь разработкой игр на Unity и выкладываю их в Play Market или Yandex Games.
           </p>
           <p>
             На данный момент учусь на 3-ем курсе в ДВФУ (Дальневосточный федеральный университет) на "Системного программиста"
@@ -23,31 +22,22 @@
 
         <div class="about-stats">
           <div class="stat-item">
-            <div class="stat-number">20+</div>
-            <div class="stat-label">Завершенных проектов</div>
+            <div class="stat-number">1.5 года</div>
+            <div class="stat-label">Web разработки</div>
           </div>
           <div class="stat-item">
-            <div class="stat-number">4 года</div>
-            <div class="stat-label">Опыт разработки</div>
+            <div class="stat-number">2.5 года</div>
+            <div class="stat-label">Разработки на Unity</div>
           </div>
           <div class="stat-item">
-            <div class="stat-number">15+</div>
-            <div class="stat-label">Технологий в стеке</div>
+            <div class="stat-number">>7</div>
+            <div class="stat-label">Выполненных web-проектов</div>
           </div>
           <div class="stat-item">
-            <div class="stat-number">100%</div>
-            <div class="stat-label">Не вру в резюме :)</div>
+            <div class="stat-number">>19</div>
+            <div class="stat-label">Выпущенных игр</div>
           </div>
         </div>
-      </div>
-
-      <div class="skills-highlight">
-        <div class="skill-tag">Коммуникабельность</div>
-        <div class="skill-tag">Работа в команде</div>
-        <div class="skill-tag">Критическое мышление</div>
-        <div class="skill-tag">Стрессоустойчивость</div>
-        <div class="skill-tag">Быстрая обучаемость</div>
-        <div class="skill-tag">Внимание к деталям</div>
       </div>
     </div>
   </div>
